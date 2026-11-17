@@ -1,0 +1,49 @@
+---
+title: "Jungmin Woo"
+subtitle: "Marketing Data Science & Fashion Industry Professional"
+about:
+  template: jolla
+  image: profile-placeholder.svg
+  image-shape: round
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/YOUR-PROFILE
+    - icon: github
+      text: GitHub
+      href: https://github.com/YOUR-USERNAME
+---
+
+## About Me
+
+I am a marketing and fashion industry professional developing expertise in marketing data science. My interests sit at the intersection of consumer behavior, brand storytelling, fashion merchandising, and data-informed decision-making.
+
+I enjoy translating customer and market information into insights that help brands create more relevant products and more meaningful experiences. This portfolio demonstrates how I use Quarto to communicate analysis clearly to an audience.
+
+## Career Aspirations
+
+My goal is to build a career in fashion marketing, brand strategy, or consumer insights. I hope to combine my practical experience in the fashion industry with analytical skills to understand customers, evaluate marketing performance, and support better business decisions.
+
+## Skills
+
+| Area | Skills |
+|:--|:--|
+| Marketing | Consumer behavior, brand positioning, social media marketing, campaign evaluation |
+| Fashion | Product development communication, vendor coordination, quality control, trend awareness |
+| Data & communication | Data storytelling, dashboard design, presentation, professional business writing |
+| Tools | Quarto, Markdown, HTML, CSS/SCSS, Excel, GitHub |
+
+## Education
+
+**Master of Science in Digital Marketing (MSDM)**  
+California State Polytechnic University, Pomona  
+*Expected completion: [add your graduation date]*
+
+## Explore This Portfolio
+
+- **Project Dashboard:** an audience-friendly dashboard for an MSDM culminating experience project.
+- **CSS / SCSS:** an explanation and demonstration of how custom styling extends a Quarto website.
+- **Listings:** an overview of Quarto listings and how they can organize a portfolio.
+
+> **Customization note:** Replace the placeholder image, LinkedIn URL, GitHub URL, and graduation date before publishing.
+

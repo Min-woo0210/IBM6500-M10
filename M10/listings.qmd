@@ -1,0 +1,59 @@
+---
+title: "Listings in Quarto"
+---
+
+## What Is a Listing?
+
+A Quarto listing is a structured collection of items that Quarto can display as a table, grid, or custom list. Listings are useful when a website contains repeated content such as projects, blog posts, reports, or portfolio pieces.
+
+## Why Listings Are Useful for a Portfolio
+
+Listings make a portfolio easier to maintain because each project can be stored as its own document. Instead of manually rebuilding a homepage every time a project changes, the website can collect project metadata and display it consistently.
+
+Typical listing metadata includes a title, description, date, image, categories, and a link to the full project.
+
+## Example Configuration
+
+The following YAML can be placed in a page such as `projects.qmd`:
+
+```yaml
+listing:
+  contents: projects
+  type: grid
+  categories: true
+  sort: "date desc"
+  fields: [image, title, description, date, categories]
+```
+
+This configuration tells Quarto to find project files in the `projects` folder, display them in a grid, show categories, and place the newest projects first.
+
+## Example Portfolio Items
+
+::: {.columns}
+::: {.column width="50%"}
+### Campaign Dashboard
+
+An audience-focused dashboard translating campaign metrics into marketing recommendations.
+
+`Category: Marketing analytics`
+:::
+
+::: {.column width="50%"}
+### Brand Relaunch Analysis
+
+An analysis of how a retailer can refresh its brand image while using familiar products and channels.
+
+`Category: Brand strategy`
+:::
+:::
+
+## Best Practices
+
+- Use consistent metadata across all project files.
+- Write descriptions for the audience, not only for the creator.
+- Use meaningful categories so visitors can filter projects.
+- Keep project titles short and specific.
+- Check the listing on both desktop and mobile layouts.
+
+Listings turn a collection of separate files into an organized, scalable portfolio. This is especially valuable as the number of projects grows.
+

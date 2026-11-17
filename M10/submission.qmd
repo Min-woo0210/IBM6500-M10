@@ -1,0 +1,18 @@
+---
+title: "M10 Hands-on Practice Submission"
+---
+
+## Published Website
+
+[Open my published website](https://min-woo0210.github.io/IBM6500-M10/)
+
+## GitHub Repository
+
+[Open my GitHub repository](https://github.com/Min-woo0210/IBM6500-M10)
+
+## Project Contents
+
+This project includes a home page, a Quarto dashboard for the MSDM culminating experience, a CSS/SCSS explanation page, and a Listings page. The four pages are connected through `_quarto.yml` and share a custom stylesheet.
+
+> The website link will work after GitHub Pages has been enabled for the `IBM6500-M10` repository.
+

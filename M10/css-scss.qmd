@@ -1,0 +1,55 @@
+---
+title: "Extending a Quarto Website with CSS / SCSS"
+---
+
+## Why Custom Styling Matters
+
+Quarto provides themes and layout options, but CSS/SCSS makes it possible to create a more consistent visual identity. Custom styling can improve hierarchy, readability, accessibility, and brand alignment without changing the underlying content.
+
+## How This Website Uses CSS
+
+The custom stylesheet is connected in `_quarto.yml`:
+
+```yaml
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+```
+
+The stylesheet then changes the visual system in one place. For example, the CSS below creates a branded heading color and a softer card appearance:
+
+```css
+:root {
+  --brand-navy: #2f4858;
+  --brand-coral: #e76f51;
+}
+
+h1, h2, h3 {
+  color: var(--brand-navy);
+}
+
+.card {
+  border: 0;
+  border-top: 4px solid var(--brand-coral);
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(47, 72, 88, 0.10);
+}
+```
+
+## CSS and SCSS: What Is the Difference?
+
+CSS is the browser-ready language that controls presentation. SCSS is a CSS preprocessor language that adds useful features such as variables, nesting, and reusable mixins. When a project uses SCSS, Quarto compiles it into CSS that the browser can read.
+
+## Design Decisions in This Portfolio
+
+1. **Color:** navy communicates professionalism and coral provides a small accent for emphasis.
+2. **Spacing:** generous whitespace separates sections and makes the content easier to scan.
+3. **Cards:** card components group related dashboard information for a busy audience.
+4. **Responsive design:** the layout uses flexible widths so it remains usable on smaller screens.
+5. **Accessibility:** color is used as a supporting cue, not the only way to communicate meaning.
+
+## What I Learned
+
+Custom CSS is most effective when it supports the audience and the content. Styling should make information easier to understand rather than distract from the message. Keeping styles in a separate stylesheet also makes the website easier to maintain and update.
+

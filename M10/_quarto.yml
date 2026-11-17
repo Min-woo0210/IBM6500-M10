@@ -1,0 +1,35 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Jungmin Woo | MSDM Portfolio"
+  description: "A professional portfolio showcasing marketing analytics, fashion industry experience, and Quarto projects."
+  navbar:
+    background: "#2f4858"
+    foreground: "#ffffff"
+    left:
+      - href: index.qmd
+        text: Home
+      - href: dashboard.qmd
+        text: Project Dashboard
+      - href: css-scss.qmd
+        text: CSS / SCSS
+      - href: listings.qmd
+        text: Listings
+    right:
+      - icon: github
+        href: "https://github.com/Min-woo0210/IBM6500-M10"
+        aria-label: GitHub repository
+  page-footer:
+    center: "© 2026 Jungmin Woo · Built with Quarto"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    smooth-scroll: true
+    code-fold: true
+    code-tools: true
+

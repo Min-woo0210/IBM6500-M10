@@ -1,0 +1,52 @@
+---
+title: "MSDM Culminating Experience Dashboard"
+format: dashboard
+---
+
+## Project Overview
+
+::: {.card}
+### Business question
+
+How can a fashion or retail brand use customer and campaign information to improve marketing decisions and strengthen customer engagement?
+:::
+
+::: {.card}
+### Audience
+
+Brand managers, marketing teams, merchandising teams, and other decision-makers who need a concise view of customer and campaign performance.
+:::
+
+## Executive Snapshot
+
+::: {.card}
+### Key metrics
+
+| Metric | Result | Interpretation |
+|:--|--:|:--|
+| Campaign reach | 48,200 | The campaign generated broad visibility. |
+| Engagement rate | 6.8% | Customers interacted with the content at a healthy rate. |
+| Conversion rate | 3.4% | A smaller group completed the desired action. |
+| Average order value | $86.40 | Customers purchased more than one low-cost item on average. |
+:::
+
+::: {.card}
+### Recommended action
+
+Continue the strongest campaign message, test two versions of the call-to-action, and segment future communications by customer behavior rather than sending one message to everyone.
+:::
+
+## Case 31 Data: Initial Interpretation
+
+The example results suggest that reach alone does not guarantee conversion. A useful next step would be to compare engagement and conversion by customer segment, channel, and product category. That analysis could reveal whether the campaign is attracting the right audience or simply generating attention.
+
+| Segment | Reach | Engagement | Conversion | Suggested focus |
+|:--|--:|--:|--:|:--|
+| New customers | 21,500 | 5.9% | 2.1% | Improve first-purchase incentives |
+| Returning customers | 15,700 | 8.2% | 4.8% | Build loyalty and cross-selling |
+| High-value customers | 11,000 | 7.5% | 5.6% | Use personalized recommendations |
+
+## Limitations and Next Steps
+
+This is a demonstration dashboard using example values. Before making a business decision, I would validate the data source, define the measurement period, check for duplicate customers, and compare the results with a previous campaign or control group. The next version could add interactive charts, filters, and a reproducible analysis from the actual culminating experience dataset.
+

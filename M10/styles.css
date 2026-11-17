@@ -1,0 +1,40 @@
+:root {
+  --brand-navy: #2f4858;
+  --brand-coral: #e76f51;
+  --brand-sand: #f7f3ee;
+}
+
+body {
+  line-height: 1.7;
+}
+
+h1, h2, h3 {
+  color: var(--brand-navy);
+  letter-spacing: -0.02em;
+}
+
+.navbar {
+  box-shadow: 0 2px 12px rgba(47, 72, 88, 0.14);
+}
+
+.about-entity {
+  background: var(--brand-sand);
+  border-radius: 18px;
+  padding: 1.5rem;
+}
+
+.card {
+  border: 0;
+  border-top: 4px solid var(--brand-coral);
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(47, 72, 88, 0.10);
+}
+
+blockquote {
+  border-left-color: var(--brand-coral);
+}
+
+code {
+  color: var(--brand-navy);
+}
+
